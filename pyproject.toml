@@ -1,0 +1,17 @@
+[project]
+name = "webdev_py"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Wandy", email = "wandy.irawan17@gmail.com"},
+]
+dependencies = [
+    "django>=5.0.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
